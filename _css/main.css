@@ -1,1 +1,76 @@
 /* css */
+
+body {
+     margin:0px;
+     padding:0px;
+     background-color:black;
+}
+
+#page {
+     padding:40px;
+ #header {
+    background-color:gray; /* this changes the background color to #ccc */
+    padding:0px;
+    margin:20px 80px;
+    color:white;
+    
+}
+
+#header h1{
+    padding:20px;
+    margin:0px;
+    font-family:verdana;
+    font-size:60pt;
+}
+ /* navigation */
+#nav, #nav a{
+    background-color:#ccc;  /* this changes the background color to #ccc */
+    padding:10px;
+}
+#nav a {
+    margin:0px;
+    color:black;
+    font-family:arial;
+    text-decoration:none;  /* this removes the underline */
+}
+
+#nav a:hover {
+    background-color:#aaaaff; /* this changes the background color to #ccc */
+    color:white;
+}
+ /* navigation */ 
+
+
+/*
+#header{
+    background-color:gray; /* this changes the background color to #ccc */    
+    width:400px;
+    padding:20px;
+}
+#header:hover{
+    background-color:pink;
+    transition: background-color 2s; /* this changes the background color allows you to change property values smoothly */
+   
+#footer {
+   background-color: black;
+   color:white;
+   margin:0px;
+   padding:20px 40px;
+}
+#footer a {
+    text-decoration:none;
+    color:white;
+}
+
+.spotlight {
+     background-color:pink;
+     padding:20px;
+}
+  
+  
+/*
+body{
+    margin:0px;
+    padding:0px;
+}
+   
